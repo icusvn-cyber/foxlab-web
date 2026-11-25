@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#131110"/>
+    <circle cx="600" cy="180" r="200" fill="#d97706" fill-opacity="0.16"/>
+    <g transform="translate(130, 175)">
+      <path d="M40 210 Q55 95 150 95 L265 150 Q380 165 480 175 C515 180 520 210 510 215 Z" fill="#9a3412" stroke="#f59e0b" stroke-width="2.5"/>
+      <path d="M395 170 Q480 175 510 215 L380 215 Z" fill="#ea580c"/>
+      <ellipse cx="455" cy="192" rx="30" ry="8" fill="#ffffff" fill-opacity="0.45"/>
+      <rect x="35" y="215" width="480" height="28" rx="6" fill="#18181b" stroke="#f59e0b" stroke-width="2"/>
+      <text x="245" y="234" fill="#f59e0b" font-family="monospace" font-size="13" font-weight="800">VIBRAM ITALY</text>
+    </g>
+    <circle cx="620" cy="340" r="58" fill="#27272a" stroke="#f59e0b" stroke-width="2.5"/>
+    <circle cx="620" cy="340" r="42" fill="#78350f"/>
+    <text x="588" y="345" fill="#fef3c7" font-family="monospace" font-size="13" font-weight="700">CARNAUBA</text>
+    <rect x="60" y="460" width="680" height="86" rx="14" fill="#090b10" fill-opacity="0.85" stroke="#27272a"/>
+    <text x="95" y="498" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">SPA GIÀY DA CAO CẤP &amp; DÁN ĐẾ VIBRAM</text>
+    <text x="95" y="526" fill="#f59e0b" font-family="monospace" font-size="15" font-weight="600">80 Giờ Thực Hành · Mirror Glaze &amp; Keo Nhiệt PU</text>
+  </svg>

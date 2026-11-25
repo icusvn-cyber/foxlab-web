@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#1c1917"/>
+    <g transform="translate(110, 150)">
+      <path d="M60 240 L60 80 L190 55 L290 140 L480 175 C535 185 555 210 555 240 Z" fill="#d6d3d1" stroke="#78716c" stroke-width="3"/>
+      <ellipse cx="260" cy="195" rx="55" ry="22" fill="#78716c" opacity="0.65"/>
+      <rect x="45" y="240" width="525" height="52" rx="14" fill="#ca8a04" stroke="#a16207" stroke-width="3"/>
+      <text x="175" y="272" fill="#422006" font-family="monospace" font-size="18" font-weight="800">ĐẾ Ố VÀNG OXY HÓA NẶNG</text>
+    </g>
+    <text x="60" y="535" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">TRƯỚC KHI XỬ LÝ: Đế ngả vàng đục &amp; bám bẩn</text>
+  </svg>

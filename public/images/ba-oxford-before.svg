@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#1c1917"/>
+    <g transform="translate(110, 170)">
+      <path d="M50 220 Q65 95 170 95 L290 155 Q410 170 520 180 C555 185 560 215 550 220 Z" fill="#a8a29e" stroke="#78716c" stroke-width="3"/>
+      <rect x="45" y="220" width="510" height="24" rx="6" fill="#57534e"/>
+      <text x="155" y="195" fill="#292524" font-family="monospace" font-size="18" font-weight="800">DA MỘC CŨ &amp; ĐẾ MÒN TRƠN</text>
+    </g>
+    <text x="60" y="535" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">TRƯỚC KHI XỬ LÝ: Bề mặt xỉn màu &amp; đế mòn</text>
+  </svg>

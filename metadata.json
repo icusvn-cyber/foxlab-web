@@ -1,0 +1,8 @@
+{
+  "name": "Fox Lab - Bản rút gọn (Quy trình, Hóa chất, 100 Lỗi)",
+  "description": "Học viện đào tạo kỹ thuật chăm sóc giày chuyên nghiệp và cung cấp giải pháp hóa chất chuyên dụng cho ngành đồ da tại Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#10141f"/>
+    <circle cx="620" cy="160" r="190" fill="#FF5E14" fill-opacity="0.14"/>
+    <circle cx="200" cy="420" r="180" fill="#38bdf8" fill-opacity="0.1"/>
+    <rect x="140" y="70" width="520" height="16" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="180" y1="86" x2="140" y2="380" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="24"/>
+    <line x1="400" y1="86" x2="400" y2="380" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="24"/>
+    <line x1="620" y1="86" x2="660" y2="380" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="24"/>
+    <g transform="translate(150, 170)">
+      <path d="M50 230 L50 90 L155 70 L235 145 L395 175 C445 182 465 205 465 230 Z" fill="#f8fafc" stroke="#e2e8f0" stroke-width="3"/>
+      <path d="M50 140 L170 140 L215 195 L50 195 Z" fill="#FF5E14"/>
+      <path d="M195 155 L295 185 L295 205 L195 180 Z" fill="#18181b"/>
+      <rect x="40" y="230" width="435" height="38" rx="14" fill="#e0f2fe" stroke="#38bdf8" stroke-width="2.5"/>
+      <circle cx="310" cy="155" r="22" fill="#ffffff" fill-opacity="0.85"/>
+      <circle cx="342" cy="148" r="16" fill="#ffffff" fill-opacity="0.85"/>
+    </g>
+    <rect x="60" y="460" width="680" height="86" rx="14" fill="#090b10" fill-opacity="0.85" stroke="#27272a"/>
+    <text x="95" y="498" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">CHĂM SÓC &amp; KHỬ Ố SNEAKER CHUYÊN SÂU</text>
+    <text x="95" y="526" fill="#FF5E14" font-family="monospace" font-size="15" font-weight="600">48 Giờ Thực Hành · Bio-Enzyme &amp; UV Unyellowing</text>
+  </svg>

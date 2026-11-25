@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#1c1917"/>
+    <g transform="translate(200, 90)">
+      <rect x="20" y="70" width="360" height="260" rx="24" fill="#3f3f46" stroke="#71717a" stroke-width="3"/>
+      <circle cx="35" cy="315" r="35" fill="#a8a29e"/>
+      <circle cx="365" cy="315" r="35" fill="#a8a29e"/>
+      <text x="85" y="160" fill="#fca5a5" font-family="monospace" font-size="18" font-weight="800">TRẦY GÓC &amp; BẠC MÀU DA CỪU</text>
+    </g>
+    <text x="60" y="535" fill="#f87171" font-family="sans-serif" font-size="22" font-weight="800">TRƯỚC KHI XỬ LÝ: Rách 4 góc đáy &amp; khô rạn</text>
+  </svg>

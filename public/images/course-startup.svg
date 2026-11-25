@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#0f1319"/>
+    <g transform="translate(120, 100)">
+      <rect width="560" height="310" rx="18" fill="#181b24" stroke="#FF5E14" stroke-width="2.5"/>
+      <rect x="30" y="30" width="500" height="50" rx="8" fill="#FF5E14"/>
+      <text x="150" y="62" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">FOX LAB CERTIFIED SPA</text>
+      <rect x="35" y="105" width="150" height="170" rx="10" fill="#101218" stroke="#3f3f46"/>
+      <rect x="205" y="105" width="150" height="170" rx="10" fill="#101218" stroke="#3f3f46"/>
+      <rect x="375" y="105" width="150" height="170" rx="10" fill="#101218" stroke="#3f3f46"/>
+      <text x="62" y="195" fill="#f97316" font-family="monospace" font-size="15" font-weight="700">KỸ THUẬT</text>
+      <text x="232" y="195" fill="#fbbf24" font-family="monospace" font-size="15" font-weight="700">MÁY MÓC</text>
+      <text x="400" y="195" fill="#34d399" font-family="monospace" font-size="15" font-weight="700">VẬN HÀNH</text>
+    </g>
+    <rect x="60" y="460" width="680" height="86" rx="14" fill="#090b10" fill-opacity="0.85" stroke="#27272a"/>
+    <text x="95" y="498" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">SETUP TRỌN GÓI XƯỞNG &amp; SPA ĐỒ HIỆU</text>
+    <text x="95" y="526" fill="#34d399" font-family="monospace" font-size="15" font-weight="600">21 Ngày + 3 Tháng Đồng Hành · Hoàn Vốn 2.5 Tháng</text>
+  </svg>

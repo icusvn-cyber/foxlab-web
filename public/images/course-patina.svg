@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="#141115"/>
+    <circle cx="240" cy="250" r="115" fill="#9a3412" stroke="#f97316" stroke-width="4"/>
+    <circle cx="340" cy="250" r="115" fill="#b45309" fill-opacity="0.85" stroke="#fbbf24" stroke-width="4"/>
+    <circle cx="440" cy="250" r="115" fill="#7c2d12" fill-opacity="0.85" stroke="#ea580c" stroke-width="4"/>
+    <circle cx="540" cy="250" r="115" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-width="4"/>
+    <text x="200" y="258" fill="#ffffff" font-family="monospace" font-size="20" font-weight="800">PANTONE &amp; PATINA</text>
+    <rect x="60" y="460" width="680" height="86" rx="14" fill="#090b10" fill-opacity="0.85" stroke="#27272a"/>
+    <text x="95" y="498" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">NGHỆ THUẬT PHA MÀU &amp; NHUỘM PATINA</text>
+    <text x="95" y="526" fill="#f97316" font-family="monospace" font-size="15" font-weight="600">64 Giờ Thực Hành · Airbrush Gradient &amp; Custom</text>
+  </svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+    <defs>
+      <linearGradient id="bg-FL-BLM-04" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#151722"/>
+        <stop offset="100%" stop-color="#0b0d12"/>
+      </linearGradient>
+      <radialGradient id="glow-FL-BLM-04" cx="50%" cy="48%" r="48%">
+        <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.28"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bg-FL-BLM-04)"/>
+    <rect width="600" height="450" fill="url(#glow-FL-BLM-04)"/>
+    <ellipse cx="300" cy="375" rx="170" ry="26" fill="#181a24" stroke="#27272a" stroke-width="2"/>
+    
+      <rect x="195" y="165" width="210" height="190" rx="26" fill="#1f1612" stroke="#fbbf24" stroke-width="3"/>
+      <rect x="210" y="125" width="180" height="42" rx="10" fill="#27272a" stroke="#52525b" stroke-width="2"/>
+      <rect x="215" y="210" width="170" height="110" rx="10" fill="#0d0e12" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="1.5"/>
+    
+    <text x="300" y="248" text-anchor="middle" fill="#fbbf24" font-family="monospace" font-size="18" font-weight="800">FL-BLM-04</text>
+    <text x="300" y="275" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">CARNAUBA BALM</text>
+    <text x="300" y="300" text-anchor="middle" fill="#a1a1aa" font-family="monospace" font-size="12">pH 6.5 · 120ml / 250ml</text>
+  </svg>
