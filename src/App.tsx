@@ -11,6 +11,7 @@ import { StudentShowcase } from './components/StudentShowcase';
 import { PhilosophySection } from './components/PhilosophySection';
 import { ChemicalsCompact } from './components/ChemicalsCompact';
 import { FaultCasesCompact } from './components/FaultCasesCompact';
+import { RoiCalculator } from './components/RoiCalculator';
 import { GanBoSection } from './components/GanBoSection';
 import { Footer } from './components/Footer';
 import { ConsultationModal } from './components/ConsultationModal';
@@ -46,6 +47,9 @@ export default function App() {
         {/* Biết: Hóa chất + 100 trường hợp lỗi (chi tiết sau nút Xem thêm) */}
         <ChemicalsCompact />
         <FaultCasesCompact />
+
+        {/* Ước tính doanh thu & thời gian hoàn vốn mở xưởng */}
+        <RoiCalculator onOpenConsultation={handleOpenConsultation} />
 
         {/* Yêu: Học viên */}
         <StudentShowcase onOpenConsultation={handleOpenConsultation} />

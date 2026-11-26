@@ -54,19 +54,8 @@ export const Footer: React.FC<FooterProps> = () => {
             </div>
           </div>
 
-          {/* Journey Mirror */}
-          <div className="lg:col-span-4 space-y-2.5 text-xs">
-            <h4 className="font-bold text-white font-display">Hành Trình Khách Hàng</h4>
-            <ul className="space-y-1.5">
-              <li><a href="#stage-biet" className="hover:text-white transition-colors">01. Biết · Nhận diện Phòng Lab &amp; Công nghệ</a></li>
-              <li><a href="#stage-hieu" className="hover:text-white transition-colors">02. Hiểu · 05 Khóa Đào Tạo &amp; 06 Hóa Chất</a></li>
-              <li><a href="#stage-yeu" className="hover:text-white transition-colors">03. Yêu · Kết Quả Trước/Sau &amp; Tính Lợi Nhuận</a></li>
-              <li><a href="#stage-gan-bo" className="hover:text-white transition-colors">04. Gắn Bó · Hệ Sinh Thái Đại Lý &amp; 03 Cơ Sở</a></li>
-            </ul>
-          </div>
-
           {/* Contact */}
-          <div className="lg:col-span-4 space-y-2 text-xs">
+          <div className="lg:col-span-8 space-y-2 text-xs">
             <h4 className="font-bold text-white font-display">Liên Hệ Trực Tiếp</h4>
             <div className="flex items-start gap-2">
               <MapPin className="w-3.5 h-3.5 text-[#FF5E14] shrink-0 mt-0.5" />
