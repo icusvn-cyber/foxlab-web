@@ -7,12 +7,12 @@ import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { WorkflowSection } from './components/WorkflowSection';
-import { CourseSection } from './components/CourseSection';
-import { ChemicalProductsSection } from './components/ChemicalProductsSection';
-import { FaultCases100Section } from './components/FaultCases100Section';
-import { RoiCalculator } from './components/RoiCalculator';
 import { StudentShowcase } from './components/StudentShowcase';
-import { LocationsSection } from './components/LocationsSection';
+import { PhilosophySection } from './components/PhilosophySection';
+import { ChemicalsCompact } from './components/ChemicalsCompact';
+import { FaultCasesCompact } from './components/FaultCasesCompact';
+import { RoiCalculator } from './components/RoiCalculator';
+import { GanBoSection } from './components/GanBoSection';
 import { Footer } from './components/Footer';
 import { ConsultationModal } from './components/ConsultationModal';
 import { FOXLAB_INFO } from './data/foxlabData';
@@ -35,27 +35,27 @@ export default function App() {
       <Navbar onOpenConsultation={handleOpenConsultation} />
 
       <main>
-        {/* GIAI ĐOẠN 01: BIẾT (Awareness, Lab Studio Identity & Brand Assets) */}
+        {/* Mở đầu */}
         <Hero onOpenConsultation={handleOpenConsultation} />
 
-        {/* MỤC 01 MENU: QUY TRÌNH (SOP 5 Bước Chuẩn Hóa Phòng Lab) */}
+        {/* Mindset / Triết lý */}
+        <PhilosophySection />
+
+        {/* Hiểu: Quy trình */}
         <WorkflowSection onOpenConsultation={handleOpenConsultation} />
 
-        {/* CÁC KHÓA HỌC THỰC HÀNH 1 KÈM 1 */}
-        <CourseSection onSelectCourse={(title) => handleOpenConsultation(`Đăng ký khóa học: ${title}`)} />
+        {/* Biết: Hóa chất + 100 trường hợp lỗi (chi tiết sau nút Xem thêm) */}
+        <ChemicalsCompact />
+        <FaultCasesCompact />
 
-        {/* MỤC 02 MENU: HÓA CHẤT (06 Dòng Hóa Chất Độc Quyền Chuẩn pH Phòng Lab) */}
-        <ChemicalProductsSection onInquireChemical={(chemName) => handleOpenConsultation(`Báo giá sỉ hóa chất: ${chemName}`)} />
-
-        {/* MỤC 03 MENU: 100 TRƯỜNG HỢP LỖI ĐÃ GẶP (Thư Viện Thực Tế & Before/After) */}
-        <FaultCases100Section onOpenConsultation={handleOpenConsultation} />
-
-        {/* CASE SHOWCASE BỔ SUNG & ROI MỞ TIỆM */}
+        {/* Ước tính doanh thu & thời gian hoàn vốn mở xưởng */}
         <RoiCalculator onOpenConsultation={handleOpenConsultation} />
+
+        {/* Yêu: Học viên */}
         <StudentShowcase onOpenConsultation={handleOpenConsultation} />
 
-        {/* GIAI ĐOẠN 04: GẮN BÓ (Cơ Sở Đào Tạo, Hợp Tác Sỉ & FAQs) */}
-        <LocationsSection onOpenConsultation={handleOpenConsultation} />
+        {/* Gắn bó lâu dài */}
+        <GanBoSection />
       </main>
 
       {/* Quiet Minimal Footer */}

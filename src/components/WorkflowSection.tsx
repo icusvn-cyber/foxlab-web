@@ -135,7 +135,7 @@ export const WorkflowSection: React.FC<WorkflowSectionProps> = ({ onOpenConsulta
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
             <div className="flex items-center gap-2 text-xs text-zinc-400 mb-2">
-              <span className="font-semibold text-[#FF5E14]">01. QUY TRÌNH CHUẨN LAB</span>
+              <span className="font-semibold text-[#FF5E14]">HIỂU · QUY TRÌNH CHUẨN LAB</span>
               <span aria-hidden="true">·</span>
               <span>SOP 5 Bước Chuẩn Hóa</span>
               <span aria-hidden="true">·</span>
@@ -223,9 +223,6 @@ export const WorkflowSection: React.FC<WorkflowSectionProps> = ({ onOpenConsulta
                       {st.chemical}
                     </span>
                   </div>
-                  <p className="text-xs text-zinc-300 leading-relaxed">
-                    {st.action}
-                  </p>
                 </div>
               </div>
             ))}
