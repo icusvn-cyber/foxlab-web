@@ -13,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
         
         {/* Journey Stage Indicator (Unboxed clean metadata) */}
         <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-400 mb-6">
-          <span className="font-semibold text-[#FF5E14]">Hành trình 01. BIẾT</span>
+          <span className="font-semibold text-[#FF5E14]">FOX LAB</span>
           <span aria-hidden="true">·</span>
           <span>Học viện Kỹ thuật &amp; Phòng Lab Hóa chất Đồ da</span>
           <span aria-hidden="true">·</span>
@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
             <div className="space-y-5 pt-2">
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  href="#stage-hieu"
+                  href="#triet-ly"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white bg-[#FF5E14] hover:bg-[#e04f0c] transition-colors whitespace-nowrap shrink-0"
                 >
                   <span>Khám Phá Khóa Học &amp; Hóa Chất</span>
@@ -106,35 +106,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
                 </div>
               </div>
               <a
-                href="#stage-yeu"
+                href="#hoa-chat"
                 className="text-xs font-semibold text-[#FF5E14] hover:underline whitespace-nowrap shrink-0"
               >
-                Xem kết quả thực tế →
+                Xem hóa chất →
               </a>
             </div>
           </div>
 
-        </div>
-
-        {/* Full-Width 4-Station Visual Gallery (More Images, Less Text) */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {FOXLAB_INFO.labStations.map((station, idx) => (
-            <div
-              key={idx}
-              className="group relative rounded-xl overflow-hidden border border-white/10 bg-[#12141c] aspect-[16/10]"
-            >
-              <img
-                src={station.image}
-                alt={station.title}
-                referrerPolicy="no-referrer"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent flex flex-col justify-end p-4">
-                <h3 className="text-sm font-bold text-white font-display">{station.title}</h3>
-                <p className="text-xs text-zinc-300 mt-0.5">{station.sub}</p>
-              </div>
-            </div>
-          ))}
         </div>
 
         {/* 4-Column KPI Strip */}
